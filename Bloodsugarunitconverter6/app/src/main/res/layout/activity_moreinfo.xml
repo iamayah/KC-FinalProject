@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_editor_absoluteX="1dp"
+    app:layout_editor_absoluteY="1dp"
+    android:fillViewport="true"
+    android:background="@drawable/bbg">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bbg"
+        tools:context=".Moreinfo">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="87dp"
+            android:layout_height="79dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.028"
+            app:srcCompat="@drawable/moreinfo" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/noto"
+            android:text="معلومات عن التطبيق "
+            android:textColor="#6F84AC"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.138" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="172dp"
+            android:fontFamily="@font/noto"
+            android:text="هناك نظامان لقياس نسبة السكر في الدم."
+            android:textAlignment="textEnd"
+            android:textColor="#6F84AC"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="384dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="240dp"
+            android:fontFamily="@font/noto"
+            android:text="- النظام القديم : يقيس نسبة السكر بالدم بوحدة المليجرام/ديسيلتر (أرقام كبيرة)"
+            android:textColor="#6F84AC"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.407"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="396dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="328dp"
+            android:fontFamily="@font/noto"
+            android:text="- النظام الحديث : يقيس نسبة السكر بالدم بوحدة المليمول/لتر (أرقام صغيرة)"
+            android:textColor="#6F84AC"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="317dp"
+            android:layout_height="286dp"
+            android:layout_marginTop="416dp"
+            android:fontFamily="@font/noto"
+            android:text="هذا التطبيق يسهّل عملية تحويل القياس لأي من النظامين ، القديم و الحديث ، حيث يسهل معرفة نسبة السكر في بالدم لمريض السكر حسب الطريقة التي اعتاد عليها و يوجد في التطبيق ميزة إعطاء رسالة للمستخدم فيما اذا كان نسبة السكر لديه طبيعية ، منخفضة او ، أو مرتفعة"
+            android:textAlignment="center"
+            android:textColor="#6F84AC"
+            android:textSize="22dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="704dp"
+            android:fontFamily="@font/noto"
+            android:text="* ملاحظة : قياسات السكر [ مرتفعة - منخفضة - طبيعية ] حسب منظمة الصحة العالمية"
+            android:textAlignment="center"
+            android:textColor="#6F84AC"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.313" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
